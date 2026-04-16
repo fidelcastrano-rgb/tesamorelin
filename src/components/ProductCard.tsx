@@ -37,6 +37,12 @@ export default function ProductCard({ product, onAddToCart }: ProductCardProps) 
           referrerPolicy="no-referrer"
           loading="lazy"
         />
+        {/* Subtle Watermark */}
+        <div className="absolute bottom-4 right-4 pointer-events-none select-none opacity-10 rotate-[-15deg]">
+          <span className="text-[10px] font-bold text-primary uppercase tracking-[0.2em] whitespace-nowrap">
+            Tesamorelin Labs
+          </span>
+        </div>
         <div className="absolute top-4 left-4 flex flex-col gap-2">
           {product.isBestSeller && (
             <span className="bg-primary text-white text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-sm">

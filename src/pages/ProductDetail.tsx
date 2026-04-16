@@ -42,14 +42,31 @@ export default function ProductDetail({ onAddToCart }: { onAddToCart: (p: Produc
             <motion.div
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
-              className="aspect-square rounded-[3rem] overflow-hidden bg-white shadow-xl border border-gray-100 flex items-center justify-center p-8"
+              className="relative aspect-square rounded-[3rem] overflow-hidden bg-white shadow-xl border border-gray-100 flex items-center justify-center p-8"
             >
               <img src={product.image} alt={product.name} className="w-full h-full object-contain" referrerPolicy="no-referrer" />
+              {/* Subtle Watermark */}
+              <div className="absolute inset-0 flex items-center justify-center pointer-events-none select-none opacity-[0.03] rotate-[-30deg]">
+                <span className="text-6xl font-bold text-primary uppercase tracking-[0.5em] whitespace-nowrap">
+                  Tesamorelin Labs
+                </span>
+              </div>
+              <div className="absolute bottom-10 right-10 pointer-events-none select-none opacity-[0.07] rotate-[-15deg]">
+                <span className="text-sm font-bold text-primary uppercase tracking-[0.3em] whitespace-nowrap">
+                  Tesamorelin Labs
+                </span>
+              </div>
             </motion.div>
             <div className="grid grid-cols-3 gap-6">
               {PRODUCTS.slice(0, 3).map((p, i) => (
-                <div key={i} className="aspect-square rounded-2xl overflow-hidden bg-white border border-gray-100 cursor-pointer hover:border-primary transition-all flex items-center justify-center p-2">
+                <div key={i} className="relative aspect-square rounded-2xl overflow-hidden bg-white border border-gray-100 cursor-pointer hover:border-primary transition-all flex items-center justify-center p-2">
                   <img src={p.image} alt="" className="w-full h-full object-contain opacity-50 hover:opacity-100 transition-opacity" referrerPolicy="no-referrer" />
+                  {/* Subtle Watermark for thumbnails */}
+                  <div className="absolute bottom-2 right-2 pointer-events-none select-none opacity-[0.05] rotate-[-15deg]">
+                    <span className="text-[6px] font-bold text-primary uppercase tracking-widest whitespace-nowrap">
+                      Tesamorelin Labs
+                    </span>
+                  </div>
                 </div>
               ))}
             </div>

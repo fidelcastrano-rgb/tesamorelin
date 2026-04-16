@@ -253,6 +253,105 @@ export const PRODUCTS: Product[] = [
       { size: '10mg', price: 23.50 },
     ],
   },
+  {
+    id: 'alluvi-supplement-box',
+    name: 'Alluvi Supplement Box',
+    slug: 'alluvi-supplement-box',
+    category: 'Wellness Bundles',
+    description: 'A curated collection of premium wellness supplements designed to support your health, beauty, and vitality goals. The ultimate all-in-one routine support.',
+    image: 'https://alluvistore.co.uk/wp-content/uploads/2026/02/alluvi-supplement-box-1-300x300.webp',
+    variants: [
+      { size: '1 Box', price: 97.00 },
+    ],
+  },
+  {
+    id: 'bpc-157-tb-500-40mg',
+    name: 'BPC-157 & TB-500 40mg',
+    slug: 'bpc-157-tb-500-40mg',
+    category: 'Recovery / Healing',
+    description: 'Advanced dual peptide blend containing BPC-157 and TB-500. Engineered for research precision in tissue repair and recovery studies.',
+    image: 'https://alluvistore.co.uk/wp-content/uploads/2026/02/bpc-157-tb-500-40mg-r-d-only-1-300x300.png',
+    variants: [
+      { size: '40mg', price: 92.00 },
+    ],
+  },
+  {
+    id: 'glow-70mg',
+    name: 'Glow 70mg (GHK-Cu)',
+    slug: 'glow-70mg',
+    category: 'Anti-Aging / Skin',
+    description: 'High-concentration GHK-Cu copper peptide for advanced research into skin health, collagen production, and tissue remodeling.',
+    image: 'https://alluvistore.co.uk/wp-content/uploads/2026/02/glow-70mg-r-d-only-1-300x300.jpg',
+    variants: [
+      { size: '70mg', price: 90.00 },
+    ],
+  },
+  {
+    id: 'nad-1000mg',
+    name: 'NAD+ 1000mg',
+    slug: 'nad-1000mg',
+    category: 'Longevity / Energy',
+    description: 'High-purity Nicotinamide Adenine Dinucleotide (NAD+) for advanced research into cellular energy, DNA repair, and longevity.',
+    image: 'https://alluvistore.co.uk/wp-content/uploads/2026/02/nad-1-000mg-300x300.jpg',
+    variants: [
+      { size: '1000mg', price: 105.00 },
+    ],
+  },
+  {
+    id: 'protein-gummy-bites',
+    name: 'Protein Gummy Bites',
+    slug: 'protein-gummy-bites',
+    category: 'Nutrition / Recovery',
+    description: 'High-quality protein gummies designed for muscle support and recovery. A convenient and delicious way to support research into protein synthesis.',
+    image: 'https://alluvistore.co.uk/wp-content/uploads/2026/02/protein-gummy-bites-300x300.webp',
+    variants: [
+      { size: '1 Pack', price: 90.00 },
+    ],
+  },
+  {
+    id: 'retatrutide-20mg-alluvi',
+    name: 'Retatrutide 20mg',
+    slug: 'retatrutide-20mg-alluvi',
+    category: 'Advanced Weight Loss',
+    description: 'High-purity Retatrutide triple agonist for advanced metabolic and weight loss research. 20mg concentration for precise laboratory applications.',
+    image: 'https://alluvistore.co.uk/wp-content/uploads/2026/02/retatrutide-20mg-r-d-only-1-300x300.jpg',
+    variants: [
+      { size: '20mg', price: 119.00 },
+    ],
+  },
+  {
+    id: 'retatrutide-40mg-alluvi',
+    name: 'Retatrutide 40mg',
+    slug: 'retatrutide-40mg-alluvi',
+    category: 'Advanced Weight Loss',
+    description: 'Premium research-grade Retatrutide 40mg. Maximum concentration for comprehensive metabolic and weight loss studies.',
+    image: 'https://alluvistore.co.uk/wp-content/uploads/2026/02/retatrutide-40mg-r-d-only-300x300.jpg',
+    variants: [
+      { size: '40mg', price: 125.00 },
+    ],
+  },
+  {
+    id: 'tirzepatide-20mg-alluvi',
+    name: 'Tirzepatide 20mg',
+    slug: 'tirzepatide-20mg-alluvi',
+    category: 'Weight Loss / GLP-1',
+    description: 'High-purity Tirzepatide 20mg dual agonist for advanced metabolic research. Ideal for studying GIP/GLP-1 receptor pathways.',
+    image: 'https://alluvistore.co.uk/wp-content/uploads/2026/02/tirzepatide-20mg-r-d-only-300x300.jpg',
+    variants: [
+      { size: '20mg', price: 90.00 },
+    ],
+  },
+  {
+    id: 'tirzepatide-40mg-alluvi',
+    name: 'Tirzepatide 40mg',
+    slug: 'tirzepatide-40mg-alluvi',
+    category: 'Weight Loss / GLP-1',
+    description: 'Premium Tirzepatide 40mg research peptide. High-concentration dual agonist for comprehensive metabolic and obesity research.',
+    image: 'https://alluvistore.co.uk/wp-content/uploads/2026/02/tirzepatide-40mg-r-d-only-300x300.jpg',
+    variants: [
+      { size: '40mg', price: 101.00 },
+    ],
+  },
 ];
 
 

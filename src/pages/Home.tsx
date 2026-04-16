@@ -79,11 +79,11 @@ export default function Home({ onAddToCart }: { onAddToCart: (p: Product, v: Pro
               transition={{ duration: 1, delay: 0.2 }}
               className="relative"
             >
-              <div className="relative z-10 rounded-[3rem] overflow-hidden shadow-2xl border-8 border-white">
+              <div className="relative z-10 rounded-[3rem] overflow-hidden shadow-2xl border-8 border-white bg-white">
                 <img
-                  src="/hero.webp"
-                  alt="Laboratory Research"
-                  className="w-full h-full object-cover"
+                  src="/Tesamorelin.webp"
+                  alt="Tesamorelin Research Peptide"
+                  className="w-full h-full object-contain p-8"
                   referrerPolicy="no-referrer"
                   fetchPriority="high"
                   decoding="async"

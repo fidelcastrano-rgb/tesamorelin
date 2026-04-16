@@ -4,6 +4,7 @@ import { Menu, X, ShoppingBag } from 'lucide-react';
 import { cn } from '@/src/lib/utils';
 
 const NAV_ITEMS = [
+  { name: 'Home', path: '/' },
   { name: 'Shop', path: '/products' },
   { name: 'About', path: '/about' },
   { name: 'Research', path: '/blog' },
