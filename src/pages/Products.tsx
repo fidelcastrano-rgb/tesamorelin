@@ -8,11 +8,11 @@ import { motion, AnimatePresence } from 'motion/react';
 
 const CATEGORIES = [
   'All Products',
-  'Weight Loss / GLP-1',
-  'Advanced Weight Loss',
+  'Metabolic / GLP-1',
+  'Advanced Metabolic',
   'Appetite Control',
-  'Fat Burning',
-  'Fat Loss / HGH',
+  'Metabolic Support',
+  'Metabolic / HGH',
   'Growth Hormone',
   'Recovery / Healing',
   'Muscle Growth',

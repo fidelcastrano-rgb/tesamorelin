@@ -5,8 +5,8 @@ export const PRODUCTS: Product[] = [
     id: 'tirzepatide',
     name: 'Tirzepatide',
     slug: 'tirzepatide',
-    category: 'Weight Loss / GLP-1',
-    description: 'High-purity Tirzepatide research peptide for laboratory studies. Dual GLP-1/GIP receptor agonist supporting advanced weight management and metabolic research in the UK.',
+    category: 'Metabolic / GLP-1',
+    description: 'High-purity Tirzepatide research peptide for laboratory studies. Dual GLP-1/GIP receptor agonist supporting advanced metabolic research in the UK.',
     image: '/tirzepatide.jpg',
     isBestSeller: true,
     variants: [
@@ -21,8 +21,8 @@ export const PRODUCTS: Product[] = [
     id: 'semaglutide',
     name: 'Semaglutide',
     slug: 'semaglutide',
-    category: 'Weight Loss / GLP-1',
-    description: 'Laboratory-grade Semaglutide peptide for metabolic and appetite regulation studies. Buy high-purity GLP-1 receptor agonists for UK research.',
+    category: 'Metabolic / GLP-1',
+    description: 'Laboratory-grade Semaglutide peptide for metabolic and appetite regulation studies. High-purity GLP-1 receptor agonists for UK research.',
     image: '/semaglutide.jpeg',
     variants: [
       { size: '5mg', price: 30.22 },
@@ -35,8 +35,8 @@ export const PRODUCTS: Product[] = [
     id: 'retatrutide',
     name: 'Retatrutide',
     slug: 'retatrutide',
-    category: 'Advanced Weight Loss',
-    description: 'Next-generation Retatrutide research peptide. Triple agonist for advanced metabolic, obesity, and weight loss laboratory studies in the UK.',
+    category: 'Advanced Metabolic',
+    description: 'Next-generation Retatrutide research peptide. Triple agonist for advanced metabolic and obesity laboratory studies in the UK.',
     image: '/retatrutide.webp',
     variants: [
       { size: '5mg', price: 141.02 },
@@ -59,8 +59,8 @@ export const PRODUCTS: Product[] = [
     id: 'aod-9604',
     name: 'AOD-9604',
     slug: 'aod-9604',
-    category: 'Fat Burning',
-    description: 'AOD-9604 research peptide for fat metabolism and lipolysis studies. Buy laboratory-grade anti-obesity drug derivatives in the UK.',
+    category: 'Metabolic Support',
+    description: 'AOD-9604 research peptide for fat metabolism and lipolysis studies. Laboratory-grade anti-obesity drug derivatives in the UK.',
     image: '/AOD-9604.webp',
     variants: [
       { size: '5mg', price: 33.99 },
@@ -71,7 +71,7 @@ export const PRODUCTS: Product[] = [
     id: 'tesamorelin',
     name: 'Tesamorelin',
     slug: 'tesamorelin',
-    category: 'Fat Loss / HGH',
+    category: 'Metabolic / HGH',
     description: 'Tesamorelin peptide for research. High-purity GHRH analog for studying fat metabolism, body composition, and growth hormone release.',
     image: '/Tesamorelin.webp',
     variants: [
@@ -110,7 +110,7 @@ export const PRODUCTS: Product[] = [
     name: 'BPC-157',
     slug: 'bpc-157',
     category: 'Recovery / Healing',
-    description: 'BPC-157 research peptide for tissue repair and healing studies. Buy high-purity Body Protection Compound for UK laboratory research.',
+    description: 'BPC-157 research peptide for tissue repair and healing studies. High-purity Body Protection Compound for UK laboratory research.',
     image: '/bpc-157.jpg',
     isBestSeller: true,
     variants: [
@@ -312,8 +312,8 @@ export const PRODUCTS: Product[] = [
     id: 'retatrutide-20mg-alluvi',
     name: 'Retatrutide 20mg',
     slug: 'retatrutide-20mg-alluvi',
-    category: 'Advanced Weight Loss',
-    description: 'High-purity Retatrutide triple agonist for advanced metabolic and weight loss research. 20mg concentration for precise laboratory applications.',
+    category: 'Advanced Metabolic',
+    description: 'High-purity Retatrutide triple agonist for advanced metabolic research. 20mg concentration for precise laboratory applications.',
     image: 'https://alluvistore.co.uk/wp-content/uploads/2026/02/retatrutide-20mg-r-d-only-1-300x300.jpg',
     variants: [
       { size: '20mg', price: 119.00 },
@@ -323,8 +323,8 @@ export const PRODUCTS: Product[] = [
     id: 'retatrutide-40mg-alluvi',
     name: 'Retatrutide 40mg',
     slug: 'retatrutide-40mg-alluvi',
-    category: 'Advanced Weight Loss',
-    description: 'Premium research-grade Retatrutide 40mg. Maximum concentration for comprehensive metabolic and weight loss studies.',
+    category: 'Advanced Metabolic',
+    description: 'Premium research-grade Retatrutide 40mg. Maximum concentration for comprehensive metabolic studies.',
     image: 'https://alluvistore.co.uk/wp-content/uploads/2026/02/retatrutide-40mg-r-d-only-300x300.jpg',
     variants: [
       { size: '40mg', price: 125.00 },
@@ -334,7 +334,7 @@ export const PRODUCTS: Product[] = [
     id: 'tirzepatide-20mg-alluvi',
     name: 'Tirzepatide 20mg',
     slug: 'tirzepatide-20mg-alluvi',
-    category: 'Weight Loss / GLP-1',
+    category: 'Metabolic / GLP-1',
     description: 'High-purity Tirzepatide 20mg dual agonist for advanced metabolic research. Ideal for studying GIP/GLP-1 receptor pathways.',
     image: 'https://alluvistore.co.uk/wp-content/uploads/2026/02/tirzepatide-20mg-r-d-only-300x300.jpg',
     variants: [
@@ -345,7 +345,7 @@ export const PRODUCTS: Product[] = [
     id: 'tirzepatide-40mg-alluvi',
     name: 'Tirzepatide 40mg',
     slug: 'tirzepatide-40mg-alluvi',
-    category: 'Weight Loss / GLP-1',
+    category: 'Metabolic / GLP-1',
     description: 'Premium Tirzepatide 40mg research peptide. High-concentration dual agonist for comprehensive metabolic and obesity research.',
     image: 'https://alluvistore.co.uk/wp-content/uploads/2026/02/tirzepatide-40mg-r-d-only-300x300.jpg',
     variants: [
@@ -358,15 +358,15 @@ export const PRODUCTS: Product[] = [
 export const BLOG_POSTS: BlogPost[] = [
   {
     id: '1',
-    title: 'Where to buy Tirzepatide in the UK',
-    slug: 'where-to-buy-tirzepatide-uk',
-    category: 'Buying Guide',
+    title: 'Sourcing Tirzepatide in the UK',
+    slug: 'sourcing-tirzepatide-uk',
+    category: 'Research Guide',
     author: 'Medical Team',
     date: 'April 7, 2026',
     excerpt: 'A comprehensive guide on finding reliable research peptide suppliers in the UK.',
     image: '/blog-tirzepatide-uk.webp',
     content: `
-      <p>Sourcing high-purity research peptides in the United Kingdom requires careful consideration of laboratory standards, third-party testing, and supplier reliability. Among the most sought-after compounds in contemporary metabolic research is Tirzepatide, a dual GIP and GLP-1 receptor agonist that has demonstrated profound effects on energy expenditure and weight management in clinical models.</p>
+      <p>Sourcing high-purity research peptides in the United Kingdom requires careful consideration of laboratory standards, third-party testing, and supplier reliability. Among the most sought-after compounds in contemporary metabolic research is Tirzepatide, a dual GIP and GLP-1 receptor agonist that has demonstrated profound effects on energy expenditure and metabolic regulation in clinical models.</p>
 
       <h2 class="text-3xl font-display font-bold text-primary mt-12 mb-6">Understanding Tirzepatide in a Research Context</h2>
       <p>Tirzepatide represents a significant advancement in peptide engineering. By agonizing both the glucose-dependent insulinotropic polypeptide (GIP) and glucagon-like peptide-1 (GLP-1) receptors, it offers a synergistic approach to metabolic regulation. Researchers in the UK are increasingly utilizing this compound to study its impact on glycemic control, lipid metabolism, and adipocyte function.</p>
@@ -387,7 +387,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </div>
 
       <h2 class="text-3xl font-display font-bold text-primary mt-12 mb-6">Key Factors When Choosing a UK Supplier</h2>
-      <p>Not all peptide suppliers operate with the same level of scientific rigor. When looking to buy Tirzepatide in the UK for laboratory use, consider the following criteria:</p>
+      <p>Not all peptide suppliers operate with the same level of scientific rigor. When looking to source Tirzepatide in the UK for laboratory use, consider the following criteria:</p>
       <ul class="list-disc pl-6 space-y-4 mt-4">
         <li><strong>Third-Party Lab Testing:</strong> The supplier must provide independent High-Performance Liquid Chromatography (HPLC) and Mass Spectrometry (MS) results for every batch.</li>
         <li><strong>Cold Chain Logistics:</strong> Peptides are sensitive to temperature fluctuations. Ensure the supplier utilizes appropriate packaging to maintain compound integrity during transit.</li>
@@ -400,7 +400,7 @@ export const BLOG_POSTS: BlogPost[] = [
         </p>
       </blockquote>
 
-      <p>At Tesamorelin Health, we pride ourselves on supplying the UK research community with the highest grade Tirzepatide available. Our compounds undergo rigorous testing to ensure they meet the exacting standards required for advanced scientific inquiry.</p>
+      <p>At Tesamorelin Peptide, we pride ourselves on supplying the UK research community with the highest grade Tirzepatide available. Our compounds undergo rigorous testing to ensure they meet the exacting standards required for advanced scientific inquiry.</p>
     `,
   },
   {
@@ -448,7 +448,7 @@ export const BLOG_POSTS: BlogPost[] = [
         </p>
       </blockquote>
 
-      <p>Both compounds require meticulous handling, precise reconstitution, and strict temperature control to maintain their structural integrity. Whether your laboratory requires Semaglutide or Tirzepatide, Tesamorelin Health provides laboratory-grade, HPLC-verified peptides to ensure the accuracy and reproducibility of your research data.</p>
+      <p>Both compounds require meticulous handling, precise reconstitution, and strict temperature control to maintain their structural integrity. Whether your laboratory requires Semaglutide or Tirzepatide, Tesamorelin Peptide provides laboratory-grade, HPLC-verified peptides to ensure the accuracy and reproducibility of your research data.</p>
     `,
   },
 ];

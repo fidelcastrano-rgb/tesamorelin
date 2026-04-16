@@ -48,7 +48,7 @@ export default function Footer() {
           <div>
             <h4 className="font-display font-bold text-gray-900 mb-6">Products</h4>
             <ul className="space-y-4 text-sm text-gray-600">
-              <li><Link to="/products?cat=weight-loss" className="hover:text-primary transition-colors">Weight Loss</Link></li>
+              <li><Link to="/products?cat=metabolic" className="hover:text-primary transition-colors">Metabolic Research</Link></li>
               <li><Link to="/products?cat=recovery" className="hover:text-primary transition-colors">Healing & Recovery</Link></li>
               <li><Link to="/products?cat=muscle" className="hover:text-primary transition-colors">Muscle Growth</Link></li>
               <li><Link to="/products?cat=anti-aging" className="hover:text-primary transition-colors">Anti-Aging</Link></li>
